@@ -6,7 +6,7 @@ Certification in Responsive Web Design from FreeCodeCamp
 ■■■■■□□□□□□□□□□□□□□□
 
 
-##Courses to Complete: 
+## Courses to Complete: 
 1. Learn HTML by Building a Cat Photo App
 2. Learn basic CSS by Building a Cafe Menu
 3. Learn CSS colors by Building a set of colored Markers 
