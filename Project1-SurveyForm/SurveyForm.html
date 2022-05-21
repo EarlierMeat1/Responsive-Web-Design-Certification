@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doctor Who Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Doctor Who Survey</h1>
+    <p id="description">To gather fan information about the best Doctor and season<p>
+    <form id="survey-form">
+      <fieldset id="fieldset-content">
+          <label id="name-label">Enter your Name: <input type="text" id="name" required placeholder="Enter your name..." /></label>
+          <label id="email-label">Enter your Email: <input type="email" id="email" required placeholder="Enter your email..."/> </label>
+          <label id="number-label">Enter your Age(optional): <input type="number" id="number" min="10" max="100" placeholder="Enter your age..." /></label>
+      </fieldset>
+      <fieldset id="fieldset-content">
+          <label>Do you prefer Classic or New Who?: </label>
+          <label><input type="radio" name="classic-new" value="classic" class="inline"/> Classic Who</label>
+          <label><input type="radio" name="classic-new" value="new" class="inline"/> New Who</label>
+          <label><input type="radio" name="classic-new" value="both" class="inline"/> Like Both</label>
+      </fieldset>
+      <fieldset id="fieldset-content">  
+          <label>Who is your favourate Doctor?: 
+            <select name="doctor" id="dropdown">
+                <option value="default">(select one)</option>
+                <option value="1">1st Doctor - William Hartnell</option>
+                <option value="2">2nd Doctor - Patrick Troughton</option>
+                <option value="3">3rd Doctor - Jon Pertwee</option>
+                <option value="4">4th Doctor - Tom Baker</option>
+                <option value="5">5th Doctor - Peter Davidson</option>
+                <option value="6">6th Doctor - Colin Baker</option>
+                <option value="7">7th Doctor - Sylvester McCoy</option>
+                <option value="8">8th Doctor - Paul McGann</option>
+                <option value="9">9th Doctor - Christopher Eccleston</option>
+                <option value="10">10th Doctor - David Tennant</option>
+                <option value="11">11th Doctor - Matt Smith</option>
+                <option value="12">12th Doctor - Peter Capaldi</option>
+                <option value="13">13th Doctor - Jodie Whittaker</option>
+                <option value="14">War Doctor - John Hurt</option>
+            </select>
+          </label>
+          <label>Select your favourate New Who series: </label>
+          <label><input type="checkbox" value="S1" name="series" class="inline"/> Series One</label>
+          <label><input type="checkbox" value="S2" name="series" class="inline"/> Series Two</label>
+          <label><input type="checkbox" value="S3" name="series" class="inline"/> Series Three</label>
+          <label><input type="checkbox" value="S4" name="series" class="inline"/> Series Four</label>
+          <label><input type="checkbox" value="S5" name="series" class="inline"/> Series Five</label>
+          <label><input type="checkbox" value="S6" name="series" class="inline"/> Series Six</label>
+          <label><input type="checkbox" value="S7" name="series" class="inline"/> Series Seven</label>
+          <label><input type="checkbox" value="S8" name="series" class="inline"/> Series Eight</label>
+          <label><input type="checkbox" value="S9" name="series" class="inline"/> Series Nine</label>
+          <label><input type="checkbox" value="S10" name="series" class="inline"/> Series Ten</label>
+          <label><input type="checkbox" value="S11" name="series" class="inline"/> Series Eleven</label>
+          <label><input type="checkbox" value="S12" name="series" class="inline"/> Series Twelve</label>
+          <label><input type="checkbox" value="S13" name="series" class="inline"/> Series Thirteen</label>
+          <label>Select your favourate New Who companion: </label>
+          <label><input type="checkbox" value="Rose" name="companion" class="inline"/> Rose Tyler</label>
+          <label><input type="checkbox" value="Cpt Jack" name="companion" class="inline"/> Captain Jack Harkness</label>
+          <label><input type="checkbox" value="Mickey" name="companion" class="inline"/> Mickey Smith</label>
+          <label><input type="checkbox" value="Donna" name="companion" class="inline"/> Donna Noble</label>
+          <label><input type="checkbox" value="Martha" name="companion" class="inline"/> Martha Jones</label>
+          <label><input type="checkbox" value="Sarah Jane" name="companion" class="inline"/> Sarah Jane Smith</label>
+          <label><input type="checkbox" value="Wilf" name="companion" class="inline"/> Wilfred Mott</label>
+          <label><input type="checkbox" value="Amy" name="companion" class="inline"/> Amy Pond</label>
+          <label><input type="checkbox" value="Rory" name="companion" class="inline"/> Rory Wiliams</label>
+          <label><input type="checkbox" value="River" name="companion" class="inline"/> River Song</label>
+          <label><input type="checkbox" value="Clara" name="companion" class="inline"/> Clara Oswald</label>
+          <label><input type="checkbox" value="Nardole" name="companion" class="inline"/> Nardole</label>
+          <label><input type="checkbox" value="Bill" name="companion" class="inline"/> Bill Potts</label>
+          <label><input type="checkbox" value="Graham" name="companion" class="inline"/> Graham O'Brien</label>
+          <label><input type="checkbox" value="Ryan" name="companion" class="inline"/> Ryan Sinclair</label>
+          <label><input type="checkbox" value="Yaz" name="companion" class="inline"/> Yasmin Khan</label>
+          <label><input type="checkbox" value="Dan" name="companion" class="inline"/> Dan Lewis</label>
+          <label><input type="checkbox" value="K9" name="companion" class="inline"/> K9</label>
+      </fieldset>
+      <fieldset id="fieldset-content">
+          <label>Any additional comments about your selections: 
+            <textarea name="add-info" rows="3" cols="30" placeholder="I also like this because..."></textarea>
+          </label>
+          <label>Would you recommend Doctor Who to a friend?: </label>
+          <label><input id="no" type="radio" name="no-yes-undecided" value="no" class="inline"/> No</label>
+          <label><input id="yes" type="radio" name="no-yes-undecided" value="yes" class="inline"/> Yes</label>
+          <label><input id="undecided" type="radio" name="no-yes-undecided" value="undecided" class="inline"/> Un-Decided</label>
+          <label>How you rate Doctor Who from 1(awful)-5(amazing)?: 
+              <select name="rating">
+                  <option value="default">(select one)</option>
+                  <option value="1">1 - Awful</option>
+                  <option value="2">2 </option>
+                  <option value="3">3 - Good</option>
+                  <option value="4">4 </option>
+                  <option value="5">5 - Amazing</option>
+              </select>
+          </label>
+      </fieldset>
+      <input type="submit" id="submit" value="Submit" />
+    </form>
+
+  </body>
+</html>
