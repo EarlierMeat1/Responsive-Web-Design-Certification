@@ -3,7 +3,7 @@ Certification in Responsive Web Design from FreeCodeCamp
 
 ## Overall Progress
 5/20 
-■■■■■■■□□□□□□□□□□□□□
+■■■■■□□□□□□□□□□□□□□□
 
 
 ##Courses to Complete: 
@@ -35,5 +35,6 @@ Certification in Responsive Web Design from FreeCodeCamp
 
 ## Certification Project - Survey Form
 Date Completed: (21-05-2022), Language ('HTML' & 'CSS')
-[View Code]
+[View Code] (https://github.com/EarlierMeat1/Responsive-Web-Design-Certification/tree/main/Project1-SurveyForm)
+![SurveyForm](https://github.com/EarlierMeat1/Responsive-Web-Design-Certification/blob/main/Project1-SurveyForm/Survey%20Form.png)
 
